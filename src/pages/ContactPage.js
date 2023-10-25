@@ -1,5 +1,6 @@
 import { Container, Col, Row } from "reactstrap";
 import SubHeader from "../components/SubHeader";
+import ContactForm from "../components/ContactForm";
 
 const ContactPage = () => {
   return (
@@ -31,11 +32,11 @@ const ContactPage = () => {
         </Col>
       </Row>
       <Row className="row-content">
-        <Col xs='12'>
-            <h2>Send Us Your Feedback</h2>
+        <Col xs="12">
+          <h2>Send Us Your Feedback</h2>
         </Col>
-        <Col md='10'>
-            TBD: ContactForm
+        <Col md="10">
+            <ContactForm />
         </Col>
       </Row>
     </Container>
